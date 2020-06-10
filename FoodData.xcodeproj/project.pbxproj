@@ -9,21 +9,41 @@
 /* Begin PBXBuildFile section */
 		141EB3EA248E31520077457D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141EB3E9248E31520077457D /* AppDelegate.swift */; };
 		141EB3EC248E31520077457D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141EB3EB248E31520077457D /* SceneDelegate.swift */; };
-		141EB3EE248E31520077457D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141EB3ED248E31520077457D /* ContentView.swift */; };
 		141EB3F0248E31550077457D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 141EB3EF248E31550077457D /* Assets.xcassets */; };
 		141EB3F3248E31550077457D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 141EB3F2248E31550077457D /* Preview Assets.xcassets */; };
 		141EB3F6248E31550077457D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 141EB3F4248E31550077457D /* LaunchScreen.storyboard */; };
+		141EB409248E38640077457D /* DailyMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141EB408248E38640077457D /* DailyMenu.swift */; };
+		141EB40D248E44FB0077457D /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141EB40C248E44FB0077457D /* Product.swift */; };
+		141EB40F248E47790077457D /* Dish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141EB40E248E47790077457D /* Dish.swift */; };
+		141EB412248E49390077457D /* NutritionComponent+Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141EB411248E49390077457D /* NutritionComponent+Enum.swift */; };
+		141EB414248E49510077457D /* Vitamins+Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141EB413248E49510077457D /* Vitamins+Enum.swift */; };
+		141EB416248E496D0077457D /* Micronutrients+Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141EB415248E496D0077457D /* Micronutrients+Enum.swift */; };
+		141EB418248E4BE80077457D /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141EB417248E4BE80077457D /* ScheduleView.swift */; };
+		141EB41E249042D00077457D /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141EB41D249042D00077457D /* WebService.swift */; };
+		141EB4202490443C0077457D /* ScheduleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141EB41F2490443C0077457D /* ScheduleViewModel.swift */; };
+		141EB423249098EC0077457D /* ScheduleViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141EB422249098EC0077457D /* ScheduleViewBuilder.swift */; };
+		141EB4452490D87B0077457D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 141EB4442490D87B0077457D /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		141EB3E6248E31520077457D /* FoodData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		141EB3E9248E31520077457D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		141EB3EB248E31520077457D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		141EB3ED248E31520077457D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		141EB3EF248E31550077457D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		141EB3F2248E31550077457D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		141EB3F5248E31550077457D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		141EB3F7248E31550077457D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		141EB408248E38640077457D /* DailyMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyMenu.swift; sourceTree = "<group>"; };
+		141EB40C248E44FB0077457D /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		141EB40E248E47790077457D /* Dish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dish.swift; sourceTree = "<group>"; };
+		141EB411248E49390077457D /* NutritionComponent+Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NutritionComponent+Enum.swift"; sourceTree = "<group>"; };
+		141EB413248E49510077457D /* Vitamins+Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Vitamins+Enum.swift"; sourceTree = "<group>"; };
+		141EB415248E496D0077457D /* Micronutrients+Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Micronutrients+Enum.swift"; sourceTree = "<group>"; };
+		141EB417248E4BE80077457D /* ScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
+		141EB41D249042D00077457D /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		141EB41F2490443C0077457D /* ScheduleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewModel.swift; sourceTree = "<group>"; };
+		141EB422249098EC0077457D /* ScheduleViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewBuilder.swift; sourceTree = "<group>"; };
+		141EB4442490D87B0077457D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +62,7 @@
 			children = (
 				141EB3E8248E31520077457D /* FoodData */,
 				141EB3E7248E31520077457D /* Products */,
+				141EB4442490D87B0077457D /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,13 +77,10 @@
 		141EB3E8248E31520077457D /* FoodData */ = {
 			isa = PBXGroup;
 			children = (
-				141EB3E9248E31520077457D /* AppDelegate.swift */,
-				141EB3EB248E31520077457D /* SceneDelegate.swift */,
-				141EB3ED248E31520077457D /* ContentView.swift */,
-				141EB3EF248E31550077457D /* Assets.xcassets */,
-				141EB3F4248E31550077457D /* LaunchScreen.storyboard */,
-				141EB3F7248E31550077457D /* Info.plist */,
-				141EB3F1248E31550077457D /* Preview Content */,
+				141EB3FD248E31690077457D /* Application Layer */,
+				141EB3FF248E31760077457D /* Core Layer */,
+				141EB3FE248E31710077457D /* Presentation Layer */,
+				141EB400248E31790077457D /* Supporting Files */,
 			);
 			path = FoodData;
 			sourceTree = "<group>";
@@ -73,6 +91,122 @@
 				141EB3F2248E31550077457D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		141EB3FD248E31690077457D /* Application Layer */ = {
+			isa = PBXGroup;
+			children = (
+				141EB3E9248E31520077457D /* AppDelegate.swift */,
+				141EB3EB248E31520077457D /* SceneDelegate.swift */,
+			);
+			path = "Application Layer";
+			sourceTree = "<group>";
+		};
+		141EB3FE248E31710077457D /* Presentation Layer */ = {
+			isa = PBXGroup;
+			children = (
+				141EB404248E31F90077457D /* Modules */,
+				141EB401248E31E00077457D /* Common */,
+			);
+			path = "Presentation Layer";
+			sourceTree = "<group>";
+		};
+		141EB3FF248E31760077457D /* Core Layer */ = {
+			isa = PBXGroup;
+			children = (
+				141EB41C249042C30077457D /* Services */,
+				141EB410248E49150077457D /* Enums */,
+				141EB407248E37E00077457D /* Entities */,
+				141EB406248E37D60077457D /* Model */,
+			);
+			path = "Core Layer";
+			sourceTree = "<group>";
+		};
+		141EB400248E31790077457D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				141EB3F7248E31550077457D /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		141EB401248E31E00077457D /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				141EB403248E31EF0077457D /* Launch Screen */,
+				141EB402248E31E40077457D /* Assets */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		141EB402248E31E40077457D /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				141EB3F1248E31550077457D /* Preview Content */,
+				141EB3EF248E31550077457D /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		141EB403248E31EF0077457D /* Launch Screen */ = {
+			isa = PBXGroup;
+			children = (
+				141EB3F4248E31550077457D /* LaunchScreen.storyboard */,
+			);
+			path = "Launch Screen";
+			sourceTree = "<group>";
+		};
+		141EB404248E31F90077457D /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				141EB405248E32030077457D /* Schedule */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		141EB405248E32030077457D /* Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				141EB417248E4BE80077457D /* ScheduleView.swift */,
+				141EB41F2490443C0077457D /* ScheduleViewModel.swift */,
+				141EB422249098EC0077457D /* ScheduleViewBuilder.swift */,
+			);
+			path = Schedule;
+			sourceTree = "<group>";
+		};
+		141EB406248E37D60077457D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		141EB407248E37E00077457D /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				141EB408248E38640077457D /* DailyMenu.swift */,
+				141EB40C248E44FB0077457D /* Product.swift */,
+				141EB40E248E47790077457D /* Dish.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		141EB410248E49150077457D /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				141EB415248E496D0077457D /* Micronutrients+Enum.swift */,
+				141EB411248E49390077457D /* NutritionComponent+Enum.swift */,
+				141EB413248E49510077457D /* Vitamins+Enum.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		141EB41C249042C30077457D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				141EB41D249042D00077457D /* WebService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +269,7 @@
 			files = (
 				141EB3F6248E31550077457D /* LaunchScreen.storyboard in Resources */,
 				141EB3F3248E31550077457D /* Preview Assets.xcassets in Resources */,
+				141EB4452490D87B0077457D /* README.md in Resources */,
 				141EB3F0248E31550077457D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,8 +282,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				141EB3EA248E31520077457D /* AppDelegate.swift in Sources */,
+				141EB418248E4BE80077457D /* ScheduleView.swift in Sources */,
+				141EB414248E49510077457D /* Vitamins+Enum.swift in Sources */,
 				141EB3EC248E31520077457D /* SceneDelegate.swift in Sources */,
-				141EB3EE248E31520077457D /* ContentView.swift in Sources */,
+				141EB412248E49390077457D /* NutritionComponent+Enum.swift in Sources */,
+				141EB40D248E44FB0077457D /* Product.swift in Sources */,
+				141EB4202490443C0077457D /* ScheduleViewModel.swift in Sources */,
+				141EB40F248E47790077457D /* Dish.swift in Sources */,
+				141EB416248E496D0077457D /* Micronutrients+Enum.swift in Sources */,
+				141EB41E249042D00077457D /* WebService.swift in Sources */,
+				141EB409248E38640077457D /* DailyMenu.swift in Sources */,
+				141EB423249098EC0077457D /* ScheduleViewBuilder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,10 +429,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"FoodData/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"FoodData/Presentation Layer/Common/Assets/Preview Content\"";
 				DEVELOPMENT_TEAM = 2QV58826D5;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = FoodData/Info.plist;
+				INFOPLIST_FILE = "FoodData/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,10 +449,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"FoodData/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"FoodData/Presentation Layer/Common/Assets/Preview Content\"";
 				DEVELOPMENT_TEAM = 2QV58826D5;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = FoodData/Info.plist;
+				INFOPLIST_FILE = "FoodData/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
